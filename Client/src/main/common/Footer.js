@@ -51,7 +51,7 @@ function Footer() {
                       <li>- <a href="#">Technology Blog</a></li>
                       <li>- <a href="#">Careers</a></li>
                       <li>- <a href="/contact">Contact Us</a></li>
-                      <li>- <a href="#">Confidentiality Policy</a></li>
+                      <li>- <a href="/confidentiality_policy">Confidentiality Policy</a></li>
                     </ul>
                 </div>
                 <div className="col-lg-4 col-xs-12 copyright">

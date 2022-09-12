@@ -9,8 +9,8 @@ function Index() {
     <div>
       <Template>
         <Banner />
-        <Counting />
         <Role />
+        <Counting />
       </Template>
     </div>
   )

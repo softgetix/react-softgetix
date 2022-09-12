@@ -3,25 +3,43 @@ import React from 'react'
 function Counting() {
   return (
     <>
-      <div className="career_banner">
-          <h1 className='Heading-banner'>Current Opportunities</h1>
-          <p className='Heading-text'>What are you waiting for? Start your future at SoftGetix today <br/>Select one role, followed by city Indore you are considering for your next carrier move.</p>
-      </div>
-
-      <div className='container'>
-        <div className='technology-section row'>
-
-          <div className='technology-box col-md-3'>
-            <h4>ROLE</h4>
+      <section className="opportunities-counting">
+          <div className="container opportunities-counting_container">
+              <div className="row" >
+                <div className="col-md-12 text-center">
+                  <h1 className="opportunities-counting-title">
+                      Growing fast, globally
+                  </h1>
+                </div>   
+              </div>
+              <div className="row text-center">
+                <div className="col-lg-3 col-md-6">
+                    <div className="counter">
+                      <h2 className="count-title">14+</h2>
+                      <p className="count-text "><img src="icons/flight.png" width="25px" alt=""/> COUNTRIES SERVED </p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div className="counter">
+                      <h2 className="count-title">230+</h2>
+                      <p className="count-text "><img src="icons/person.png" width="30px" alt=""/> HAPPY CLIENTS </p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div className="counter">
+                      <h2 className="count-title">280+</h2>
+                      <p className="count-text "><img src="icons/pencil-and-ruler.png" width="25px" alt=""/> PROJECTS COMPLETE </p>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                    <div className="counter">
+                      <h2 className="count-title">82%</h2>
+                      <p className="count-text "><img src="icons/experience.png" width="25px" alt=""/> REPEATE+REFERRAL </p>
+                    </div>
+                </div>
+              </div>
           </div>
-          <div className='technology-box col-md-3'>
-          <h4>ROLE</h4>
-          </div>
-          <div className='technology-box col-md-3'>
-          <h4>ROLE</h4>
-          </div>
-        </div>
-      </div>
+      </section>
 
     </>
   )

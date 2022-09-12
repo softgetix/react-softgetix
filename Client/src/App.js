@@ -12,6 +12,7 @@ import DigitalTransformation from "./main/services/DigitalTransformation";
 import EnterpriseServices from "./main/services/EnterpriseServices";
 import GetFreeQuote from "./main/common_components/GetFreeQuote";
 import Staffing from "./main/staffing/Staffing";   
+import ConfidentialityPolicy from "./main/ConfidentialityPolicy";
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
           <Route path='/enterprise_services' exact element={<EnterpriseServices />} />
           <Route path='/getFreeQuote' exact element={<GetFreeQuote />} />
           <Route path='/staffing' exact element={<Staffing />} />
+          <Route path='/confidentiality_policy' exact element={<ConfidentialityPolicy />} />
+
 
         </Routes>
       </BrowserRouter>  

@@ -1158,3 +1158,242 @@ ul.socials-icons {
   #staff_steps{margin-top: 50px;}
 }
 /* staffing page css end */
+
+/*_____careers-page-css-start______*/
+        
+#careers-banner{
+  background-color: #f8fcff;
+  margin-top: 80px;
+}
+/*_____careers-page-slider-css-start______*/
+.carousel {
+  margin: 25px 0 50px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.carousel:before, .carousel:after {
+  z-index: -1; 
+  position: absolute; 
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%; 
+  top: 80%;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.7); 
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-3deg);
+}
+.carousel:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.carousel .carousel-item {  
+  text-align: center;
+  min-height: 200px;
+}
+.carousel .carousel-item img {
+  max-width: 100%;
+  margin: 0 auto; 
+}
+.carousel-control-next span {
+  margin-left: -27px;
+  margin-right: -533px;
+  margin-top: 149px;
+}
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 24px;
+    margin-top: 13px;
+}
+.carousel-control-next {
+  margin-right: -28px;
+}
+.carousel-indicators {
+  bottom: -42px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin: 1px 4px;
+}
+.carousel-control-prev, .carousel-control-next {
+      width: 280px; 
+      height: 240px;
+      opacity: 1;
+      margin: auto 0;
+      background: none;
+      text-shadow: none;
+      padding: 40px;
+  }
+  .carousel-control-prev {
+      left: -303px;
+      top: 149px;
+  }
+
+  .carousel-control-prev span {
+      margin-right: -100px;
+  }
+
+  .carousel-control-prev span, .carousel-control-next span {
+      width: 226px;
+      height: 300px;
+      display: inline-block;
+      background: #d3e1fd;
+      box-shadow: 0 0 1px rgb(0 0 0 / 30%);
+  }
+  .carousel-control-prev i {
+      margin-left: 0px;
+      margin-top: 135px;
+      background-color: white;
+      padding: 20px 10px;
+      color: black;
+  }
+  .carousel-control-next i {
+    margin-right: 0px;
+    margin-top: 135px;
+    background-color: white;
+    padding: 20px 10px;
+    color: black;
+  }
+  .carousel-indicators li.active {
+      background: #2f3b74;
+      border-color: #2f3b74;
+  }
+  .carousel-indicators li{
+    border: 1px solid #2f3b74;
+  }
+
+  /*____careers-slider-MQ-start_____*/
+  @media only screen and (max-width: 1000px)
+  {
+    .carousel-control-prev span, .carousel-control-next span{width: 0px;}
+    .carousel-control-next i{display: none;}
+    .carousel-control-prev i{display: none;}
+  }
+  @media (min-width: 1001px) and (max-width: 1180px)
+  {
+    .carousel-control-next span {margin-top: 72px}
+    .carousel-control-prev {top: 72px;}
+    .carousel-control-prev span, .carousel-control-next span{
+      width: 150px;}
+    .carousel-control-next span{margin-right: -457px;}
+    .carousel-control-prev span{margin-right: -175px;}
+  }
+
+  /*____opportunities-css-start_____*/
+  .opportunities1{
+    border: 2px solid #ffb300;
+    padding: 10px;
+  }
+  .opportunities1_body:hover{
+    background-color:#ffb300;
+  }
+  .opportunities2{
+    border: 2px solid #4385f4;
+    padding: 10px;
+  }
+  .opportunities2_body:hover{
+    background-color:#4385f4;
+  }
+  .opportunities3{
+    border: 2px solid #4eacae;
+    padding: 10px;
+  }
+  .opportunities3_body:hover{
+    background-color:#4eacae;
+  }
+  .opportunities4{
+    border: 2px solid #c4df9b;
+    padding: 10px;
+  }
+  .opportunities4_body:hover{
+    background-color:#c4df9b;
+  }
+  .opportunities5{
+    border: 2px solid #ffa8ff;
+    padding: 10px;
+  }
+  .opportunities5_body:hover{
+    background-color:#ffa8ff;
+  }
+  .opportunities6{
+    border: 2px solid #ff7800;
+    padding: 10px;
+  }
+  .opportunities6_body:hover{
+    background-color:#ff7800;
+  }
+  .opportunities1 , .opportunities2 , .opportunities3 , .opportunities4 , 
+  .opportunities5 , .opportunities6{
+    width: 300px;
+    height: 320px;
+  }
+  .opportunities1_body , .opportunities2_body , .opportunities3_body ,
+  .opportunities4_body , .opportunities5_body , .opportunities6_body{
+    background-color: #fff;
+    padding: 5px;
+    width: 100%;height: 100%;
+  }
+  .opportunities1_body a , .opportunities2_body a , .opportunities3_body a , 
+  .opportunities4_body a , .opportunities5_body a , .opportunities6_body a{
+    text-decoration: none;
+    color: black;
+  }
+  .opportunities1_body a:hover , .opportunities2_body a:hover , 
+  .opportunities3_body a:hover ,.opportunities4_body a:hover ,
+  .opportunities5_body a:hover ,.opportunities6_body a:hover{
+    color: #fff;
+  }
+  .opportunities_button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .opportunities_button .choose-role{
+    margin-left: 30px;
+  }
+  .opportunities_button .col-md-6{
+    text-align: right;
+  }
+  @media (max-width: 768px)
+  {
+    /*___opportunities-MQ-start____*/
+    .opportunities_button{margin-top: 0px;}
+    .opportunities_button .choose-role{margin-left: 0px;}
+    .opportunities_button .choose-city , .opportunities_button 
+    .choose-role{text-align: center;}
+    .opportunities_button .free_Quote_btn{text-align: center;}
+    .opportunities_button .col-md-6{text-align: center;}
+    /*___opportunities-counting-MQ-start____*/
+    .opportunities-counting_container {padding-left: 6rem!important;padding-right: 6rem!important;}
+    h1.opportunities-counting-title{font-size: 40px!important}
+  }
+
+  /*____opportunities-counting-css-start____*/
+  .opportunities-counting{
+    width: 100%;
+    height: auto;
+    background-color: #f0f9ff;
+  }
+  .opportunities-counting_container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  h1.opportunities-counting-title {
+    font-family: 'poppins-bold';
+    font-size: 50px;
+  }
+  /*_____careers-page-css-start______*/
+  /*____confidentiality-policy-css-start_____*/
+	#confidentiality-policy{
+		margin-top: 80px;
+	}
+	#confidentiality-policy h3 {
+    	font-family: 'poppins-semibold';
+    	padding: 20px 0px;
+	}
+/*____confidentiality-policy-css-end_____*/
